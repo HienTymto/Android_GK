@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".AddPetActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagedd"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@android:drawable/sym_def_app_icon"
+            tools:srcCompat="@drawable/avatar" />
+
+        <Button
+            android:id="@+id/btnChonHinh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="Chọn Ảnh" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã Sản Phẩm"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/etMaSach"
+            android:text=""
+            android:textSize="16sp"
+            android:inputType="number"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/etTenSach"
+            android:text=""
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá"
+            android:textSize="8pt"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/etGia"
+            android:text=""
+            android:textSize="16sp"
+            android:inputType="number"/>
+    </TableRow>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Mô tả"
+            android:textSize="16sp"
+
+            />
+
+        <EditText
+            android:id="@+id/etMota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh mục"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tvDanhmuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0" />
+        <Spinner
+            android:spinnerMode="dropdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spiner"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnLuuSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Thêm sản phẩm"
+            android:textSize="16sp" />
+    </TableRow>
+
+
+</LinearLayout>

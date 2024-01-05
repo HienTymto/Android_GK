@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ivHinh"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTieuDema"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mã: "
+
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#6495ed"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTieuDeTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên: "
+
+                    android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tvTieuDe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chó Alaska"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6495ed"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTieuDeGia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giá: "
+
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tvGia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="80.000đ"
+
+                    android:textColor="#6495ed"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTieuDemaloai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên loại: "
+
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tvMaLoai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mã loại"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#6495ed"/>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
